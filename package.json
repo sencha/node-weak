@@ -28,7 +28,7 @@
     "build": "node-gyp rebuild"
   },
   "dependencies": {
-    "bindings": "sencha/node-bindings#find-by-abi",
+    "bindings": "https://github.com/CelestialSystem/node-bindings.git#find-by-abi",
     "nan": "^2.0.5"
   },
   "devDependencies": {
