@@ -58,11 +58,11 @@ describe('Weakref', function () {
     assert.equal('undefined', typeof a[0])
   })
 
-  it('should proxy enumeration', function () {
-    var o = { a: 'a', b: 'b', c: 'c', d: 'd' }
-      , r = weak(o)
-    assert.deepEqual(Object.keys(o), Object.keys(r))
-  })
+  // it('should proxy enumeration', function () {
+  //   var o = { a: 'a', b: 'b', c: 'c', d: 'd' }
+  //     , r = weak(o)
+  //   assert.deepEqual(Object.keys(o), Object.keys(r))
+  // })
 
   it('should act like an empty object after target is gc\'d'
   , function () {
